@@ -11,9 +11,8 @@ const {
 
 const Course = require("../models/Course");
 
-const { protect, authorize } = require("../middleware/auth");
-
 const advancedResults = require("../middleware/advancedResults");
+const { protect, authorize } = require("../middleware/auth");
 
 router
   .route("/")
